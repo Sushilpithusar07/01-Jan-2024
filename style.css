@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background: url(travel.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    /* filter: blur(2px); */
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+    background-color: rgba(0, 0, 255, 0.37);
+}
+.navbar{
+    /* position: absolute; */
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.navbar .nav-logo h1{
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 0px 34px;
+}
+.navbar .nav-lists{
+    margin-right: 60px;
+}
+.navbar .nav-lists a{
+    margin: 0px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.navbar .nav-lists a:hover{
+    border-bottom: 2px solid #E8530B;
+    cursor: pointer;
+    transition: all .1s;
+}
+.navbar .nav-lists i{
+    font-weight: 700;
+    font-size: 18 px;
+
+}
+.hero{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    width: 650px;
+    /* height: 100px; */
+    /* border: 2px solid; */
+}
+.hero h1{
+    font-size: 70px;
+    color: white;
+}
+.hero p{
+    color: rgb(202, 194, 194);
+    margin-bottom: 12px;
+}
+#btn{
+    outline: none;
+    padding: 10px 18px;
+    background-color: #E8530B;
+    border: 2px solid #E8530B;
+    border-radius: 12px;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+#btn:hover{
+    background-color: transparent;
+    cursor: pointer;
+    transition: all .3s;
+}
